@@ -1,5 +1,5 @@
 puts "Donne un nombre"
-number = gets.chomp
-if number > 0 
-puts "Salut ça farte" * number - 1
+ number = gets.chomp.to_i
+if number >= 2 
+   puts "Bonjour toi\n" * number -=1 
 end
